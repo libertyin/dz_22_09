@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    transition: all .1s ease-in;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 
 .grid {
 
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 
 }
@@ -132,13 +133,18 @@ aside img {
 }
 
 li a {
+
     text-decoration: none;
     font-size: 14px;
-color: #c2c2c2;
+    color: #c2c2c2;
 }
 
 li span {
-padding-right: 8px;
+
+box-sizing: border-box;
+padding-left: 10px;
+display: inline-block;
+vertical-align: middle;
 text-align: center;
 font-weight: bold;
 
